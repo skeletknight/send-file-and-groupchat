@@ -4,7 +4,7 @@ import java.util.*;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 public class ChatServer {
-    private static final int PORT = 12345;
+    private static final int PORT = 5000;
     private static final int MAX_CHAT_HISTORY = 10;
     private static CopyOnWriteArrayList<ClientHandler> clients = new CopyOnWriteArrayList<>();
     private static LinkedList<String> chatHistory = new LinkedList<>();
